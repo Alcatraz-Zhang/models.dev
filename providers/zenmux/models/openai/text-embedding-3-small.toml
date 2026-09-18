@@ -1,0 +1,10 @@
+base_model = "openai/text-embedding-3-small"
+name = "Text Embedding 3 Small"
+
+[cost]
+input = 0.02
+output = 0
+
+[limit]
+context = 8_192
+output = 8_192

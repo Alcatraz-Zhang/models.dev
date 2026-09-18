@@ -1,0 +1,19 @@
+# Toggle: thinking.type = enabled|disabled|adaptive
+# Effort: output_config.effort = low|high|max
+# https://zenmux.ai/docs/guide/advanced/reasoning.html
+base_model = "moonshotai/kimi-k2.8-preview"
+
+[[reasoning_options]]
+type = "toggle"
+
+[[reasoning_options]]
+type = "effort"
+values = ["low", "high", "max"]
+
+[cost]
+input = 1
+output = 4
+cache_read = 0.25
+
+[limit]
+output = 1_048_576

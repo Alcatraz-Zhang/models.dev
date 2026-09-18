@@ -1,0 +1,8 @@
+base_model = "moonshotai/kimi-k2.7-code-highspeed"
+name = "Kimi K2.7 Code HighSpeed"
+reasoning_options = []
+
+[cost]
+input = 1.9
+output = 8
+cache_read = 0.38

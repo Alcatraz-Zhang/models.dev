@@ -1,0 +1,10 @@
+base_model = "google/gemini-3-pro-image"
+name = "Nano Banana Pro (Gemini 3 Pro Image)"
+reasoning = false
+
+[cost]
+input = 2
+output = 120
+
+[limit]
+output = 8_192

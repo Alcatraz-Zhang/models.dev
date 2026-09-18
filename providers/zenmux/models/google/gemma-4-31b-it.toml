@@ -1,0 +1,8 @@
+base_model = "google/gemma-4-31b-it"
+reasoning = false
+
+[limit]
+output = 65_535
+
+[modalities]
+input = ["image", "text", "video"]

@@ -1,0 +1,4 @@
+base_model = "google/veo-3.1-lite-generate-001"
+
+[limit]
+context = 100_000
