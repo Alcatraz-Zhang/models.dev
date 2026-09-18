@@ -1,5 +1,8 @@
 # Effort: reasoning_effort = minimal|low|medium|high
+# ZenMux's 2026-09-19 catalog explicitly lists the 1-hour cache-write token
+# band at USD 0 per million tokens; this is a published free price, not a sentinel.
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
+# https://zenmux.ai/docs/api/vertexai/google-list-models.html
 base_model = "google/gemini-3.5-flash"
 
 [[reasoning_options]]

@@ -1,6 +1,9 @@
 # Effort: reasoning_effort = low|medium|high
 # Budget: thinking.budget_tokens (integer)
+# ZenMux's 2026-09-19 catalog and Anthropic-compatible model list explicitly
+# report max_completion_tokens=32000 for this hosted route.
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
+# https://zenmux.ai/docs/api/anthropic/anthropic-list-models.html
 base_model = "anthropic/claude-opus-4-5"
 name = "Claude Opus 4.5"
 structured_output = true
