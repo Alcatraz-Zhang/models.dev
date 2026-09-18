@@ -1,3 +1,6 @@
+# ZenMux's 2026-09-19 catalog reports reasoning disabled and no public token
+# price for this non-free route; cost is intentionally omitted rather than set to zero.
+# https://zenmux.ai/docs/api/openai/openai-list-models.html
 base_model = "google/gemma-4-31b-it"
 reasoning = false
 

@@ -1,7 +1,14 @@
 # Toggle: thinking.type = enabled|disabled
 # Effort: reasoning_effort = low|high|max
+# ZenMux also publishes time-of-day prices. The catalog records the discounted
+# scalar/base rate exposed by the 2026-09-19 model APIs; peak bands are not
+# representable by the catalog's context-tier schema.
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
+# https://zenmux.ai/docs/api/openai/openai-list-models.html
 base_model = "deepseek/deepseek-v4.1-flash"
+
+[interleaved]
+field = "reasoning_content"
 
 [[reasoning_options]]
 type = "toggle"
@@ -9,3 +16,8 @@ type = "toggle"
 [[reasoning_options]]
 type = "effort"
 values = ["low", "high", "max"]
+
+[cost]
+input = 0.075
+output = 0.3
+cache_read = 0.0015

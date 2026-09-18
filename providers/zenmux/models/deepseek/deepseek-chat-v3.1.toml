@@ -1,3 +1,6 @@
+# ZenMux's 2026-09-19 model lists expose this as the non-thinking chat route,
+# so reasoning=false is an intentional host override.
+# https://zenmux.ai/docs/api/openai/openai-list-models.html
 base_model = "deepseek/deepseek-v3.1"
 name = "DeepSeek V3.1"
 reasoning = false
