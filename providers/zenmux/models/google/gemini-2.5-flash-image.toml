@@ -1,5 +1,6 @@
-# ZenMux's 2026-09-19 catalog and Google-compatible model list both report
-# thinking disabled for this image route, so this is an intentional host override.
+# ZenMux's 2026-09-19 page catalog has supports_reasoning=0 and its live
+# Google-compatible model-list response has thinking=false for this exact id.
+# The lab's reasoning surface is therefore intentionally disabled on this host.
 # https://zenmux.ai/docs/api/vertexai/google-list-models.html
 base_model = "google/gemini-2.5-flash-image"
 name = "Gemini 2.5 Flash Image (Nano Banana)"

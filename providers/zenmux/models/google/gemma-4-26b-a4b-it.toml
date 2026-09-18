@@ -1,5 +1,6 @@
-# ZenMux's 2026-09-19 protocol model lists report reasoning/thinking disabled
-# for this route, so this is an intentional host override.
+# ZenMux's 2026-09-19 page catalog has supports_reasoning=0; its live OpenAI-
+# and Anthropic-compatible lists have capabilities.reasoning=false, and its
+# Google-compatible list has thinking=false for this exact id.
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 base_model = "google/gemma-4-26b-a4b-it"
 reasoning = false
