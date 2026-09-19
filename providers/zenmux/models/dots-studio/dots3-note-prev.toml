@@ -1,9 +1,9 @@
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
-base_model = "inclusionai/ring-2.6-1t"
+base_model = "dots-studio/dots3-note-prev"
 reasoning_options = []
 
 [cost]
-input = 0.3
-output = 2.5
-cache_read = 0.06
+input = 0
+output = 0
+cache_read = 0
