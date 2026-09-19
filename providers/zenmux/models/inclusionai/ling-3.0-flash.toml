@@ -3,8 +3,6 @@
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
 base_model = "inclusionai/ling-3.0-flash"
 name = "Ling-3.0-flash"
-temperature = false
-tool_call = false
 
 [[reasoning_options]]
 type = "toggle"

@@ -1,6 +1,5 @@
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 base_model = "inclusionai/llada2.1-flash"
-structured_output = false
 
 [cost]
 input = 0.28

@@ -2,9 +2,6 @@
 base_model = "atria-asi/atria-dawn-preview"
 name = "Atria Dawn Preview (Free)"
 reasoning = false
-temperature = false
-tool_call = false
-structured_output = false
 
 [cost]
 input = 0

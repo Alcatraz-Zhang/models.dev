@@ -3,9 +3,6 @@
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
 base_model = "tencent/hy3"
 base_model_omit = ["limit.input"]
-temperature = false
-tool_call = false
-structured_output = false
 
 [[reasoning_options]]
 type = "effort"

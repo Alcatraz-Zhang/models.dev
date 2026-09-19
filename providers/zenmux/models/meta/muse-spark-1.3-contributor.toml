@@ -3,9 +3,6 @@
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
 base_model = "meta/muse-spark-1.3"
 name = "Muse Spark 1.3 Contributor"
-temperature = false
-tool_call = false
-structured_output = false
 
 [[reasoning_options]]
 type = "effort"

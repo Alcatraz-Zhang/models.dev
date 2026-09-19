@@ -14,9 +14,3 @@ type = "toggle"
 input = 0.44
 output = 0.88
 cache_read = 0.0037
-
-[[cost.tiers]]
-tier = { type = "context", size = 256_000 }
-input = 0.44
-output = 0.88
-cache_read = 0.0037
