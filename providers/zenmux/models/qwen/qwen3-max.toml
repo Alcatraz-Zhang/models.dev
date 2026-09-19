@@ -2,7 +2,10 @@
 # Budget: reasoning.max_tokens (integer reasoning tokens)
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
-base_model = "alibaba/qwen3-max-thinking"
+base_model = "alibaba/qwen3-max"
+name = "Qwen3-Max-Thinking"
+reasoning = true
+structured_output = true
 
 [[reasoning_options]]
 type = "toggle"
@@ -29,3 +32,7 @@ input = 3
 output = 15
 cache_read = 0.3
 cache_write = 3.75
+
+[limit]
+context = 256_000
+output = 32_000

@@ -1,3 +1,5 @@
+# ZenMux's 2026-09-19 page has supports_reasoning=0 and both live OpenAI- and
+# Anthropic-compatible entries have capabilities.reasoning=false for this id.
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 base_model = "xai/grok-build-0.1"
 reasoning = false

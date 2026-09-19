@@ -1,14 +1,11 @@
-# ZenMux's 2026-09-19 page has supports_reasoning=1 and its live OpenAI list has
-# capabilities.reasoning=true for this id. The transcription route advertises no
-# reasoning parameters or side channel, so it has no caller control.
+# ZenMux's list flags this route as reasoning-capable, but the transcription API
+# exposes neither a reasoning request control nor a reasoning response channel;
+# lab and first-party metadata both classify Qwen3 ASR Flash as non-reasoning.
 # ZenMux pricing is non-token-denominated for this route and is intentionally omitted.
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
-# https://zenmux.ai/docs/guide/advanced/reasoning.html
 base_model = "alibaba/qwen3-asr-flash"
 name = "Qwen3 ASR Flash"
 attachment = true
-reasoning = true
-reasoning_options = []
 
 [limit]
 context = 1_000_000

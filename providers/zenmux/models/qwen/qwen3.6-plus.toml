@@ -1,5 +1,7 @@
 # Toggle: reasoning.enabled = true|false
 # Budget: reasoning.max_tokens (integer reasoning tokens)
+# ZenMux's 2026-09-19 page and both live OpenAI-/Anthropic-compatible lists
+# explicitly include file input; the catalog represents that host modality as PDF.
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
 base_model = "alibaba/qwen3.6-plus"
