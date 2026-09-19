@@ -7,6 +7,7 @@ reasoning = false
 temperature = false
 tool_call = false
 open_weights = true
+license = "MIT"
 
 [limit]
 context = 1_024

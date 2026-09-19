@@ -2,6 +2,9 @@
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
 base_model = "meta/muse-spark-1.1"
+temperature = false
+tool_call = false
+structured_output = false
 
 [[reasoning_options]]
 type = "effort"

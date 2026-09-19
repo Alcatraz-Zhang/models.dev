@@ -1,3 +1,4 @@
 # ZenMux pricing is non-token-denominated for this route and is intentionally omitted.
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 base_model = "alibaba/wan3.0-video-prime"
+structured_output = false

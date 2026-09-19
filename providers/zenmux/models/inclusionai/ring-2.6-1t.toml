@@ -1,7 +1,11 @@
+# Effort: reasoning_effort = high|xhigh
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
 base_model = "inclusionai/ring-2.6-1t"
-reasoning_options = []
+
+[[reasoning_options]]
+type = "effort"
+values = ["high", "xhigh"]
 
 [cost]
 input = 0.3

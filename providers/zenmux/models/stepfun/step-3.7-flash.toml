@@ -2,6 +2,7 @@
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
 base_model = "stepfun/step-3.7-flash"
+structured_output = false
 
 [interleaved]
 field = "reasoning_content"
