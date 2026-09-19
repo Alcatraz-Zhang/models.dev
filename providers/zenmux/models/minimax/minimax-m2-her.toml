@@ -1,3 +1,4 @@
+# Host reasoning override: page supports_reasoning=0 and OpenAI capabilities.reasoning=false.
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 base_model = "minimax/MiniMax-M2-Her"
 name = "MiniMax M2-her"

@@ -2,12 +2,8 @@
 # Budget: reasoning.max_tokens (integer reasoning tokens)
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
-base_model = "alibaba/qwen3-max"
+base_model = "alibaba/qwen3-max-2026-01-23"
 name = "Qwen3-Max-Thinking"
-description = "Qwen3-Max-Thinking is ZenMux's reasoning-capable Qwen3 Max route for math, coding, logic, science, multilingual instruction following, retrieval-augmented generation, and tool calling."
-release_date = "2026-01-23"
-last_updated = "2026-01-23"
-reasoning = true
 structured_output = true
 
 [[reasoning_options]]
