@@ -1,5 +1,6 @@
 # Toggle: reasoning.enabled = true|false
 # Budget: reasoning.max_tokens (integer reasoning tokens)
+# Host limits: the 2026-09-19 ZenMux page reports context_length=1024000 and max_completion_tokens=1024000.
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
 base_model = "alibaba/qwen3.5-flash"
