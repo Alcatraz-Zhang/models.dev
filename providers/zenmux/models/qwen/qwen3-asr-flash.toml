@@ -7,7 +7,6 @@
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 base_model = "alibaba/qwen3-asr-flash"
 name = "Qwen3 ASR Flash"
-attachment = true
 
 [limit]
 context = 1_000_000
