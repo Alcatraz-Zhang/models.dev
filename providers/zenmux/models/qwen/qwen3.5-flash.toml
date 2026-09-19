@@ -1,4 +1,5 @@
-# Effort: reasoning_effort = low|medium|high
+# Toggle: reasoning.enabled = true|false
+# Budget: reasoning.max_tokens (integer reasoning tokens)
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
 base_model = "alibaba/qwen3.5-flash"
@@ -8,8 +9,10 @@ name = "Qwen3.5-Flash"
 field = "reasoning_content"
 
 [[reasoning_options]]
-type = "effort"
-values = ["low", "medium", "high"]
+type = "toggle"
+
+[[reasoning_options]]
+type = "budget_tokens"
 
 [cost]
 input = 0.1

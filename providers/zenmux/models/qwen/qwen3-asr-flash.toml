@@ -1,4 +1,6 @@
-# Effort: reasoning_effort = low|medium|high
+# ZenMux's 2026-09-19 page has supports_reasoning=1 and its live OpenAI list has
+# capabilities.reasoning=true for this id. The transcription route advertises no
+# reasoning parameters or side channel, so it has no caller control.
 # ZenMux pricing is non-token-denominated for this route and is intentionally omitted.
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
 # https://zenmux.ai/docs/guide/advanced/reasoning.html
@@ -6,13 +8,7 @@ base_model = "alibaba/qwen3-asr-flash"
 name = "Qwen3 ASR Flash"
 attachment = true
 reasoning = true
-
-[interleaved]
-field = "reasoning_content"
-
-[[reasoning_options]]
-type = "effort"
-values = ["low", "medium", "high"]
+reasoning_options = []
 
 [limit]
 context = 1_000_000

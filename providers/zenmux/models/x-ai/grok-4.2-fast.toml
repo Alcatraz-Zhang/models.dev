@@ -1,6 +1,11 @@
+# ZenMux's 2026-09-19 page has supports_reasoning=0 and both live OpenAI- and
+# Anthropic-compatible entries have capabilities.reasoning=false for this id.
+# This route therefore uses the reasoning checkpoint identity but disables the
+# reasoning surface as an explicit host delta.
 # https://zenmux.ai/docs/api/openai/openai-list-models.html
-base_model = "xai/grok-4.20-0309-non-reasoning"
+base_model = "xai/grok-4.20-0309-reasoning"
 name = "Grok 4.2 Fast"
+reasoning = false
 
 [cost]
 input = 2
