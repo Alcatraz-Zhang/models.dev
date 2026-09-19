@@ -1,0 +1,13 @@
+# https://zenmux.ai/docs/api/openai/openai-list-models.html
+# https://zenmux.ai/docs/guide/advanced/reasoning.html
+base_model = "alibaba/qwen3-235b-a22b-thinking-2507"
+structured_output = true
+reasoning_options = []
+
+[interleaved]
+field = "reasoning_content"
+
+[cost]
+input = 0.28
+output = 2.78
+cache_read = 0.056

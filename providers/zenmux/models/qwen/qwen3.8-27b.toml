@@ -1,0 +1,19 @@
+# Effort: reasoning_effort = none|low|medium|xhigh
+# https://zenmux.ai/docs/api/openai/openai-list-models.html
+# https://zenmux.ai/docs/guide/advanced/reasoning.html
+base_model = "alibaba/qwen3.8-27b"
+name = "Qwen3.8-27B"
+
+[[reasoning_options]]
+type = "effort"
+values = ["none", "low", "medium", "xhigh"]
+
+[cost]
+input = 0.5
+output = 3
+cache_read = 0.05
+cache_write = 0.625
+
+[limit]
+context = 1_000_000
+output = 131_072
